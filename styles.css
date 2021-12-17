@@ -1,0 +1,94 @@
+html {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    top:0;
+    left:0;
+    margin: auto;
+    width: 100%;
+}
+
+.post{
+    background-color: white;
+    margin: auto;
+    vertical-align: auto;
+    max-width: 300px;
+}
+
+.post-header{
+    display: flex;
+    margin: 15px 10px 0px 10px;
+    padding-top: 5px;
+}
+
+.titles {
+    margin-left: 7px;
+}
+
+.titles h1 {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.titles p {
+    font-size: 12px;
+    margin: 0px;
+}
+
+img {
+    height: auto;
+    width: 300px;
+    object-fit: contain;
+    margin-top: 5px;
+}
+
+.symbol {
+    font-size: 15px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 2px;
+}
+
+.ellipsis {
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.far {
+    display: flex;
+}
+
+.fab fa-html5{
+    font-size: 30px;
+}
+
+.far fa-bookmark{
+    position: relative;
+    float: right;
+    margin: 5px;
+}
+
+.post-footer {
+    padding: 5px;
+}
+
+.mainicons {
+    margin-left: 5px;
+}
+
+.lasticon {
+    margin-left: auto;
+    margin-right: 2px;
+}
+
+.likes {
+    font-size: 9.5px
+}
+
+.text{
+    font-size: 10px;
+}
